@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+body,html
+{
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: black;
+}
+.home
+{
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: orangered;
+    font-family: 'Modak', cursive;
+    font-weight: 300;
+}
+.navbar
+{
+    transform: translate(0%,-165%);
+    color: white;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    margin-right: 30px;
+}
+.navbar .access
+{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 5px 20px 5px 20px;
+}
+.navbar .access:hover
+{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    transition: 0.8s ease;
+    color: orangered;
+    transform: scale(1.2);
+}
+.work
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: orangered;
+    margin: 0;
+    font-size: 40px;
+}
+hr
+{
+    
+    width: 35%;
+}
+.project
+{
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20%;
+    font-weight: 100;
+}
+table
+{
+    width: 60%;
+    margin:0;
+    margin-top: 2%;
+    margin-left: 25%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid orangered;
+}
+td
+{
+    padding: 15px;
+    text-align: center;
+    font-weight: 100;
+    margin:0;
+    margin-top: 2%;
+    margin-left: 25%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border: 2px solid orangered;
+}
+.otprojects
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.areaofinterest
+{
+    width: 40%;
+    margin: 0;
+    color: orangered ;
+    font-family: 'Roboto', sans-serif;
+    transform: translate(70%,0%);
+    font-size: 20px;
+    font-weight: 100;
+}
+.areaofinterest .aoi
+{
+    padding: 5px;
+}
+a
+{
+    color: white;
+}
+a:visited
+{
+    color: white
+}
+/*.knownsl
+{
+    color: white;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.softwares
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 20%;
+}*/
+
+/*-----------------------------------------------------*/
+@media screen and (max-width:375px)
+{
+    .home
+    {
+        text-align: center;
+        color: orangered;
+        font-family: 'Modak', cursive;
+        font-weight: 300;
+        font-size: 30px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .navbar
+    {
+        color: white;
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        transform: translate(-5%,60%);
+    }
+    .navbar .access
+    {
+        margin-right: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar .access:hover
+    {
+        border: 1px solid orangered;
+        border-radius: 1px;
+        transition: 0.8s ease;
+        color: orangered;
+    }
+    hr
+    {
+    
+        width: 60%;
+        margin: 0;
+        margin-left: 20%;
+    }
+    .work
+    {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: orangered;
+        margin: 1%;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .project
+    {
+        font-size: 25px;
+        margin: 0;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        font-weight: 400;
+    }
+    table
+    {
+        width: 80%;
+        margin:0;
+        margin-top: 2%;
+        margin-left: 10%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    th
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: white;
+        border: 2px solid orangered;
+    }
+    td
+    {
+        padding: 15px;
+        text-align: center;
+        font-weight: 100;
+        margin:0;
+        margin-top: 2%;
+        margin-left: 25%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        background-color: transparent;
+        border: 2px solid orangered;
+    }
+    .otprojects
+    {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 25px;
+    }
+    .areaofinterest
+    {
+        width: 50%;
+        margin: 0;
+        color: orangered ;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        transform: translate(30%,0%);
+    }
+    .areaofinterest .aoi
+    {
+        padding: 5px;
+    }
+}
+
+
+
+
+/*------------------------------------------------*/
+@media screen and (max-width:425px)
+{
+    .home
+    {
+        text-align: center;
+        color: orangered;
+        font-family: 'Modak', cursive;
+        font-weight: 300;
+        font-size: 30px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .navbar
+    {
+        color: white;
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        transform: translate(-15%,60%);
+    }
+    .navbar .access
+    {
+        margin-right: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar .access:hover
+    {
+        border: 1px solid orangered;
+        border-radius: 1px;
+        transition: 0.8s ease;
+        color: orangered;
+    }
+    hr
+    {
+    
+        width: 100%;
+        margin: 0;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .work
+    {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: orangered;
+        margin: 20%;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .project
+    {
+        font-size: 25px;
+        margin: 0;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        font-weight: 100;
+    }
+    table
+    {
+        width: 80%;
+        margin:0;
+        margin-top: 2%;
+        margin-left: 10%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    th
+    {
+        text-align: center;
+        color: white;
+        border: 2px solid orangered;
+        padding: 5px;
+    }
+    td
+    {
+        padding: 10px;
+        text-align: center;
+        font-weight: 300;
+        margin:0;
+        margin-top: 2%;
+        margin-left: 25%;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        background-color: transparent;
+        border: 2px solid orangered;
+    }
+    .otprojects
+    {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 25px;
+    }
+    .areaofinterest
+    {
+        width: 50%;
+        margin: 0;
+        color: orangered ;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        transform: translate(30%,0%);
+    }
+    .areaofinterest .aoi
+    {
+        padding: 5px;
+    }
+}

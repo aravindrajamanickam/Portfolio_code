@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contactme_style.css">
+    <script src="https://kit.fontawesome.com/e4ec04848c.js" crossorigin="anonymous"></script>
+    <title>Aravind</title>
+</head>
+<body>
+    <a href="index.html"><h1 class="home">Aravind</h1></a>
+    <br>
+    <ul class="navbar">
+        <a href="index.html"><li class="access">Home</li></a>
+        <a href="mywork.html"><li class="access">My Works</li></a>
+        <a href="aboutme.html"><li class="access">About Me</li></a>
+        <a href="#"><li class="access">Contact Me</li></a>
+    </ul>
+    <br><br><br><br>
+    <h1 class="contact"> You can contact me here !!</h1>
+    <div class="socialmedia">
+        <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
+        <a class="btn" href="#"><i class="fab fa-linkedin"></i></a>
+        <a class="btn" href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <br><br>
+    <h1 class="or">Or <br> Feel free to write me</h1>
+    <br>
+    <button class="write" onclick="toggle()">Write Me</button>
+    <br><br>
+    <div class="form" id="contactform">
+        <h1 class="fill">Please fill the form below</h1>
+        <div class="txtb">
+            <label>Name :</label>
+            <input type="email" placeholder="Enter your email address.">
+        </div>
+        <div class="txtb">
+            <label>Email :</label>
+            <input type="email" placeholder="Enter your email address.">
+        </div>
+        <div class="txtb">
+            <label>Message :</label>
+            <textarea name="name" rows="8" cols="30" ></textarea>
+        </div>
+        <button class="send">Send</button>
+    </div>
+
+    <script>
+        function toggle()
+        {
+            var x=document.getElementById("contactform");
+            if(x.style.display==="none")
+                {
+                    x.style.display="block";
+                }
+            else
+                {
+                    x.style.display="none"
+                }
+        }
+    
+    
+    
+    </script>
+    
+</body>
+</html>

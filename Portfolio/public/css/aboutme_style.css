@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+body,html
+{
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: black;
+}
+.home
+{
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: orangered;
+    font-family: 'Modak', cursive;
+    font-weight: 300;
+}
+.navbar
+{
+    transform: translate(0%,-165%);
+    color: white;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    margin-right: 30px;
+}
+.navbar .access
+{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 5px 20px 5px 20px;
+}
+.navbar .access:hover
+{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    transition: 0.8s ease;
+    color: orangered;
+    transform: scale(1.2);
+}
+.dp
+{
+    transform: translate(0%,-2%);
+    height: 300px;
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 150px;
+}
+.me
+{
+    width: 40%;
+    color: orangered;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+    transform: translate(75.5%,0%);
+    font-size: 40px;
+}
+.aboutme
+{
+    color: white;
+    margin: 0;
+    margin-left: 42%;
+    font-size: 25px;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    transform: translate(0%,-105%)
+}
+.workbutton
+{
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 5px -5px ;
+}
+.workbutton:hover
+{
+    font-weight: 300;
+    border: 1px solid orangered;
+    background-color: transparent;
+    color: orangered;
+    transition: 0.8s ease;
+}
+.resume
+{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left:100px;
+    font-size:30px;
+    border: 1px solid orangered;
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    transform: translate(134%,-450%); 
+    cursor: pointer;
+}
+hr
+{
+        display: none;
+}
+a
+{
+    color: white;
+}
+a:visited
+{
+    color: white
+}
+
+/* FOR MOBILE PHONES */
+
+@media screen and (max-width:320px)
+{
+    .home
+    {
+        text-align: center;
+        color: orangered;
+        font-family: 'Modak', cursive;
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .navbar
+    {
+        color: white;
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        transform: translate(-5%,60%);
+    }
+    .navbar .access
+    {
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar .access:hover
+    {
+        border: 1px solid orangered;
+        border-radius: 1px;
+        transition: 0.8s ease;
+        color: orangered;
+    }
+    .dp
+    {
+        transform: translate(25%,0%);
+        height: 200px;
+        border-radius: 50%;
+        margin: 30px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .me
+    {
+        color: orangered;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(5%,20%);
+        font-size: 40px;
+    }
+    .aboutme
+    {
+        text-align: center;
+        color: white;
+        margin: 0;
+        margin-left: 20px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        transform: translate(0%,5%);
+    }   
+    .resume
+    {
+        margin: 0;
+        text-align: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size:30px;
+        border: 1px solid orangered;
+        width: 85%;
+        border-radius: 10px;
+        padding: 10px 5px 10px 5px;
+        transform: translate(10%,30%);
+    }
+}
+
+
+/* For Mobile phones with 375 Widht*/
+
+
+@media screen and (max-width:375px)
+{
+    .home
+    {
+        text-align: center;
+        color: orangered;
+        font-family: 'Modak', cursive;
+        font-weight: 300;
+        font-size: 30px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .navbar
+    {
+        color: white;
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        transform: translate(-5%,60%);
+    }
+    .navbar .access
+    {
+        margin-right: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar .access:hover
+    {
+        border: 1px solid orangered;
+        border-radius: 1px;
+        transition: 0.8s ease;
+        color: orangered;
+    }
+    .dp
+    {
+        transform: translate(35%,0%);
+        height: 200px;
+        border-radius: 50%;
+        margin: 30px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .me
+    {
+        color: orangered;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(0%,0%);
+        font-size: 40px;
+        margin: 0;
+    }
+    .aboutme
+    {
+        text-align: center;
+        color: white;
+        margin: 10%;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        transform: translate(0%,5%);
+    }   
+    .resume
+    {
+        margin: 0% 7% 0% 7%;
+        text-align: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size:30px;
+        border: 1px solid orangered;
+        width: 85%;
+        border-radius: 10px;
+        padding: 10px 5px 10px 5px;
+        transform: translate(0%,30%);
+    }
+    hr
+    {
+        display: block;
+        width: 101.5%;
+    }
+}
+
+
+/*-----------------------------------------------*/
+
+@media screen and (max-width:425px)
+{
+    .home
+    {
+        text-align: center;
+        color: orangered;
+        font-family: 'Modak', cursive;
+        font-weight: 300;
+        font-size: 30px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .navbar
+    {
+        color: white;
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        transform: translate(-15%,60%);
+    }
+    .navbar .access
+    {
+        margin-right: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        padding: 0px 0px 0px 0px;
+    }
+    .navbar .access:hover
+    {
+        border: 1px solid orangered;
+        border-radius: 1px;
+        transition: 0.8s ease;
+        color: orangered;
+    }
+    .dp
+    {
+        transform: translate(45%,0%);
+        height: 200px;
+        border-radius: 50%;
+        margin: 30px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .me
+    {
+        color: orangered;
+        font-family: 'Roboto', sans-serif;
+        transform: translate(38%,0%);
+        font-size: 40px;
+        margin: 0;
+        width: 60%;
+    }
+    .aboutme
+    {
+        text-align: center;
+        color: white;
+        margin: 10%;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        transform: translate(0%,5%);
+    }   
+    .resume
+    {
+        margin: 0% 7% 0% 7%;
+        text-align: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size:30px;
+        border: 1px solid orangered;
+        width: 85%;
+        border-radius: 10px;
+        padding: 10px 5px 10px 5px;
+        transform: translate(0%,30%);
+    }
+    hr
+    {
+        display: block;
+        width: 101.5%;
+    }
+}
